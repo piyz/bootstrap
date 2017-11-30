@@ -47,6 +47,12 @@
                     <img src="img/logo.png" class="img-fluid">
                 </div>
 
+                <div class="col col-sm align-self-center">
+                    <div class="btn-group" role="group">
+                        <a role="button" class="btn btn-warning" href="#">Reserve Table</a>
+                    </div>
+                </div>
+
             </div>
         </div>
     </header>
@@ -78,8 +84,15 @@
                 <h3>Еще одна надпись надпись 3</h3>
             </div>
             <div class="col-sm col-md">
-                <h2>Тут вторая надпись надпись 2</h2>
-                <p>текст текст текст текст текст текст текст текст текст текст текст текст</p>
+
+                <div class="media">
+                    <div class="media-body">
+                        <h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
+                        <p class="hidden-xs-down"> текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст</p>
+                    </div>
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/buffet.png" alt="buffet">
+                </div>
+
             </div>
         </div>
 
@@ -104,6 +117,64 @@
 
             </div>
         </div>
+
+        <div class="row row-content align-items-center">
+            <div class="col-8 offset-2">
+                <div class="card">
+                    <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
+                    <div class="card-block">
+                        <form>
+
+                            <div class="form-group row">
+                                <label class="col-md-2 col-form-label">Number of Guests</label>
+                                <div class="col-md-8">
+                                    <input type="radio" class="form-check-inline" name="approve" value="">
+                                    <strong>1</strong>
+                                    <input type="radio" class="form-check-inline" name="approve" value="">
+                                    <strong>2</strong>
+                                    <input type="radio" class="form-check-inline" name="approve" value="">
+                                    <strong>3</strong>
+                                    <input type="radio" class="form-check-inline" name="approve" value="">
+                                    <strong>4</strong>
+                                    <input type="radio" class="form-check-inline" name="approve" value="">
+                                    <strong>5</strong>
+                                    <input type="radio" class="form-check-inline" name="approve" value="">
+                                    <strong>6</strong>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+
+                                <label class="col-md-2 col-form-label">Data and Time</label>
+                                <div class="col-4">
+                                    <div class="input-group">
+                                        <div class="input-group-addon"><i class="fa fa-dashboard"></i></div>
+                                        <input type="text" class="form-control" id="data" name="date" placeholder="Data">
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="input-group">
+                                        <div class="input-group-addon"><i class="fa fa-times-circle"></i></div>
+                                        <input type="text" class="form-control" id="time" name="time" placeholder="Time">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="form-group row">
+                                <div class="offset-md-2 col-md-10">
+                                    <button type="submit" class="btn btn-primary">
+                                        Reserve
+                                    </button>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
     </div>
 
