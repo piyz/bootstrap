@@ -37,20 +37,22 @@
         <div class="container">
             <div class="row row-header">
 
-                <div class="col-xs-12 col-sm-8">
+                <div class="col-12 col-sm-6">
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
 
                 <!-- logo here -->
-                <div class="col-xs-12 col-sm-2">
+                <div class="col col-sm align-self-center">
                     <img src="img/logo.png" class="img-fluid">
                 </div>
 
                 <!-- button reserve table -->
-                <div class="col-xs-12 col-sm-2">
+                <div class="col-12 col-sm align-self-center">
                     <div class="btn-group" role="group">
-                        <a role="button" class="btn btn-warning" href="#">Reserve Table</a>
+                        <a role="button" class="btn btn-block btn-sm nav-link btn-warning"
+                           data-toggle="tooltip" data-html="true" title="Or Call us at<br><strong>+852 12345678</strong>"
+                           data-placement="bottom" href="#reserveform">Reserve Table</a>
                     </div>
                 </div>
 
@@ -225,5 +227,11 @@
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/tether/dist/js/tether.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
 </body>
 </html>
